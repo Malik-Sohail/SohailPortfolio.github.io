@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohail's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75de6e6972.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Logo2.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#servics">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Sohail</span><br>Maqsood from Pakistan.</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------About---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/PP.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Sohail Maqsood, a passionate Front-End Web Developer with a knack for creating dynamic
+                        and visually appealing web experiences. With a solid foundation in HTML, CSS, and JavaScript, I
+                        specialize in building responsive, user-friendly websites that perform seamlessly across all
+                        devices.
+                        <br>
+                        <br>
+                        My journey into web development began during my majoring in Computer Science. Since then, I've
+                        honed my skills through hands-on projects, continuous learning, and staying updated with the
+                        latest industry trends. I take pride in writing clean, efficient code and am always eager to
+                        explore new technologies and frameworks like React, Node.js etc to enhance my work.
+                        <br>
+                        <br>
+                        Beyond coding, I have a keen eye for design and a deep appreciation for aesthetics. This blend
+                        of technical and creative skills allows me to bridge the gap between design and development,
+                        ensuring that the final product not only functions perfectly but also provides an engaging user
+                        experience.
+                        <br>
+                        When I'm not coding, you can find me doing Graphic Designing and UI/UX Designing, which often
+                        inspire my work and keep my creativity flowing.
+                        <br>
+                        <br>
+                        I’m excited to bring my expertise to your projects and help create web experiences that make a
+                        difference. Let’s connect and build something great together!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2015-2017</span><br>Intermediate(FSC) from Fauji Foundation College</li>
+                            <li><span>2018-2022</span><br>Bachelors in Computer Science from Air University</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>Front-end Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX Development</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Graphic Designing</span><br>Designing Unique Logos, Business Cards, Posters etc
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Graphics Head of Sha'oor Society</li>
+                            <li><span>2021-2022</span><br>Deputy Graphics of Air University Computing and Innovation
+                                Society</li>
+                            <li><span>2020-Present</span><br>Graphic Designer at Fiverr</li>
+                            <li><span>2023-2024</span><br>Internship at Buzzware Tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Service---------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I specialize in crafting visually stunning, responsive websites tailored to your unique needs.
+                        With a focus on clean design, user-friendly interfaces, and seamless functionality, I create
+                        online experiences that captivate and engage. Let’s work together to bring your vision to life
+                        and enhance your digital presence with a website that truly stands out.</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I specialize in creating intuitive, user-centric designs that enhance user satisfaction and
+                        engagement. By blending aesthetics with functionality, I ensure seamless interactions and
+                        delightful experiences. Let’s collaborate to elevate your digital product with designs that
+                        resonate with users and drive results.</p>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-palette"></i>
+                    <h2>Graphic Design</h2>
+                    <p>I specialize in crafting visually compelling designs that communicate your brand's story and
+                        captivate your audience. From logos and branding to marketing materials and digital graphics, I
+                        bring creativity and precision to every project. Let’s collaborate to bring your vision to life
+                        and make a lasting impact with stunning visual designs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Portfolio------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg">
+                    <div class="layer">
+                        <h3>PARHLO Mobile App</h3>
+                        <p>“PARHLO” app is a tool to assist the students/parents to find private
+                            tutors in an interactive manner.
+                            It aims to complement the efforts of a student to find a desirable
+                            teacher. The categories can be defined by subject specialization,
+                            location, and fees.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>Towards Data Exploratory And Predictive Analysis of
+                            COVID-19</h3>
+                        <p>Coronavirus (COVID-19) is causing critical health problems to
+                            individuals all over the globe. We have used Artificial Intelligence (AI) along with
+                            powerful and advanced Deep Learning (DL) procedures
+                            for accurate and efficient disease detection from chest CT images.
+                            <br>
+                            <br>
+                            Deep Convolutional Neural Network-based (CNN) strategies are
+                            explored and aided by AI and DL approaches for better outcomes.
+                            We have used the densenet201 model in our work. Initially, the
+                            transfer learning model was used for feature extraction and also fine-tuned the model to
+                            achieve better results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------Contact-------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> malikms062@gmail.com</p>
+                    <p><i class="fa-solid fa-mobile-screen-button"></i> +92 3261603633</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/_isohail_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/malik.sohail.7505468/"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/sohail-maqsood-3bb815220/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sohail:Web Developer</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwJZ9lMV8X9eIiPt68wmStSQIwR0vI5NiG4ITRsYF2_WTDK7c-BrfzfbFsNHu4Edxih/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+             msg.innerHTML = "Message sent successfully!"
+             setTimeout(function(){
+                msg.innerHTML = ""
+             }, 5000)
+             form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
